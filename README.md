@@ -1,5 +1,5 @@
 
-Simple Node server with express, mocha and JSX
+Simple Node server with express, mocha utilizing babel for ES6
 
 Running/Testing
 

@@ -4,9 +4,9 @@
   "description": "Boilerplate for Node server. Supports Mocha for testing, ES6+ syntax, Linting etc.",
   "main": "src/server.js",
   "scripts": {
-    "watch:build": "webpack -wd",
-    "watch:server": "nodemon --exec babel-node src/index.js",
-    "watch:server:debug": "nodemon --inspect-brk --exec babel-node src/index.js --ignore public/",
+    "startDev": "webpack -wd & nodemon --exec babel-node src/index.js",
+    "startDebug": "webpack -wd & nodemon --inspect-brk --exec babel-node src/index.js --ignore public/",
+    "start": "node public/bundle.js",
     "test": "mocha --require babel-register"
   },
   "repository": {

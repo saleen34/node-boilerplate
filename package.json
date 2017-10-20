@@ -1,12 +1,12 @@
 {
   "name": "node-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for Node server. Supports Mocha for testing, JSX syntax, Linting etc.",
-  "main": "src/server.jsx",
+  "description": "Boilerplate for Node server. Supports Mocha for testing, ES6+ syntax, Linting etc.",
+  "main": "src/server.js",
   "scripts": {
     "watch:build": "webpack -wd",
-    "watch:server": "nodemon --exec babel-node src/index.jsx",
-    "watch:server:debug": "nodemon --inspect-brk --exec babel-node src/index.jsx --ignore public/",
+    "watch:server": "nodemon --exec babel-node src/index.js",
+    "watch:server:debug": "nodemon --inspect-brk --exec babel-node src/index.js --ignore public/",
     "test": "mocha --require babel-register"
   },
   "repository": {
@@ -16,7 +16,7 @@
   "keywords": [
     "Node",
     "Mocha",
-    "JSX",
+    "ES6",
     "Boilerplate",
     "Linting"
   ],
